@@ -1,0 +1,39 @@
+body{
+    background-color: aquamarine;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: rebeccapurple;
+    transition: all 2s linear;
+    animation: progress-bar 8s 2s infinite;
+    border-radius: 25px;
+   
+}
+@keyframes progress-bar{
+    0%{
+        width: 0%;
+    }
+    25%{
+        width: 25%;
+    }
+    50%{
+        width: 50%;
+    }
+    75%{
+        width: 75%;
+    }
+    100%{
+        width: 100%;
+    }
+    
+}
+.progress{
+    background-color: darkgoldenrod;
+    border: darkred;
+    padding: 15px;
+    border-radius: 25px;
+    border: red 2px solid;
+    width: 50vw;
+    height: 50vh;
+}
